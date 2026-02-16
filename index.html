@@ -1,0 +1,204 @@
+<!-- ===================== DOCUMENT DECLARATION ===================== -->
+<!DOCTYPE html>
+<!-- Tells browser this is an HTML5 document -->
+
+<!-- ===================== ROOT HTML ELEMENT ===================== -->
+<html lang="en">
+<!-- Root of the webpage, language set to English -->
+
+<head>
+    <!-- ===================== META INFORMATION ===================== -->
+
+    <meta charset="UTF-8">
+    <!-- Sets character encoding to UTF-8 -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Makes layout responsive on different screen sizes -->
+
+    <title>Daily News - Special Edition - Nanha Tragedy</title>
+    <!-- Title shown in browser tab -->
+</head>
+
+<!-- ===================== BODY (VISIBLE CONTENT STARTS HERE) ===================== -->
+<body style="background-color: #f4f1ea; color: #1a1a1a; font-family: 'Times New Roman', Times, serif; margin: 0; padding: 20px;">
+<!-- Sets overall background, text color, font, removes default margin and adds padding -->
+
+    <!-- ===================== MAIN CONTAINER ===================== -->
+    <main style="max-width: 1000px; margin: 0 auto; background-color: #fffdf5; padding: 15px; border: 1px solid #ccc; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <!-- Centers content, limits width, adds border and shadow -->
+
+        <!-- ===================== HEADER SECTION ===================== -->
+        <header style="border-bottom: 4px double black; margin-bottom: 20px; text-align: center;">
+        <!-- Top newspaper header with bottom double border -->
+
+            <!-- Left Info Column (uses float layout) -->
+            <div style="float: left; width: 15%; font-size: 12px; text-align: left; border-right: 1px solid #000; height: 60px;">
+                <!-- float:left positions element to left side -->
+                <strong>Vol:</strong> 42<br>
+                <strong>Price:</strong> 2 Rs<br>
+                <strong>City:</strong> Lahore
+            </div>
+
+            <!-- Center Title Column -->
+            <div style="display: inline-block; width: 65%;">
+                <!-- inline-block allows width control while staying inline -->
+                <h1 style="font-size: 48px; margin: 0; text-transform: uppercase; letter-spacing: 2px; font-weight: 900;">
+                    THE DAILY NEWS
+                </h1>
+                <p style="margin: 0; font-style: italic; font-size: 14px;">
+                    Saturday, June 2, 1986 | Lahore, Pakistan
+                </p>
+            </div>
+
+            <!-- Right Info Column (float right) -->
+            <div style="float: right; width: 15%; font-size: 12px; text-align: right; border-left: 1px solid #000; height: 60px;">
+                <strong>Weather:</strong> 34°C<br>
+                <strong>Sunset:</strong> 7:12 PM
+            </div>
+
+            <!-- Clears floating elements so layout continues properly -->
+            <div style="clear: both;"></div>
+
+            <!-- ===================== NAVIGATION BAR ===================== -->
+            <nav style="border-top: 1px solid black; border-bottom: 1px solid black; margin-top: 10px; padding: 5px 0;">
+                <!-- Creates horizontal navigation strip -->
+
+                <ul style="list-style-type: none; padding: 0; margin: 0; text-align: center; font-weight: bold; font-size: 14px;">
+                    <!-- Removes bullets and centers items -->
+                    <li style="display: inline; margin: 0 15px;">NATIONAL</li>
+                    <!-- display:inline makes items appear horizontally -->
+                    <li style="display: inline; margin: 0 15px;">CRIME</li>
+                    <li style="display: inline; margin: 0 15px;">SHOWBIZ</li>
+                    <li style="display: inline; margin: 0 15px;">SPORTS</li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- ===================== MAIN HEADLINES SECTION ===================== -->
+        <section id="main-headlines">
+
+            <!-- Right Floating Investigation Box -->
+            <div style="float: right; width: 250px; border: 3px solid black; padding: 10px; margin-left: 15px; margin-bottom: 10px; background-color: #e0e0e0;">
+                <!-- Floating box beside headline -->
+                <h4 style="margin: 0; text-align: center; text-decoration: underline;">POLICE INVESTIGATION</h4>
+                <p style="font-weight: bold; font-size: 18px; text-align: center; margin: 5px 0;">Is this Suicide or Murder?</p>
+                <p style="font-size: 14px; text-align: center; margin: 0;">"The man who made the nation laugh is gone."</p>
+            </div>
+
+            <!-- Main Headline -->
+            <h1 style="font-size: 52px; background-color: #000; color: #fff; padding: 10px; margin: 0 0 10px 0; text-align: center; text-transform: uppercase; line-height: 1;">
+                ACTOR NANHA COMMITS SUICIDE
+            </h1>
+
+            <!-- Sub Headline -->
+            <h2 style="font-size: 28px; border-top: 2px solid black; border-bottom: 2px solid black; padding: 10px 0; margin: 0 0 15px 0; text-align: center; font-style: italic;">
+                The Final Note: "I am dying of my own free will; no one is to be held responsible."
+            </h2>
+
+            <!-- Clears right float from investigation box -->
+            <div style="clear: right;"></div>
+
+        </section>
+
+        <!-- ===================== MAIN ARTICLE (Two Column Layout) ===================== -->
+        <article style="column-count: 2; column-gap: 30px; border-bottom: 1px solid #000; padding-bottom: 15px; margin-bottom: 15px; text-align: justify;">
+        <!-- column-count creates newspaper-style columns -->
+
+            <p style="margin-top: 0;">
+                <strong>LAHORE (Crime Reporter)</strong> – The legendary film star and comedian, Rafi Khawar, popularly known as "Nanha," has tragically ended his life. Reports indicate that the actor was suffering from severe depression following a domestic dispute regarding his second marriage to actress Nazli. Family sources revealed that his family's refusal to accept the marriage had caused him immense mental anguish.
+            </p>
+
+            <p>
+                The incident occurred early this morning when family members heard a gunshot ring out from the lounge. Upon rushing to the scene, they discovered the beloved actor slumped on a sofa, lifeless. He had reportedly used his own shotgun to commit the act. Just days prior, he had renewed his gun license, assuring his mother that the weapon was solely for home protection. Film studios across Lahore have announced a closure in mourning.
+            </p>
+        </article>
+
+        <!-- ===================== TABLE LAYOUT SECTION ===================== -->
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+        <!-- Table used for structured layout (3-column section) -->
+
+            <tr style="vertical-align: top;">
+
+                <!-- Left Image Column -->
+                <td style="width: 30%; padding-right: 15px; border-right: 1px solid #ccc;">
+                    <figure style="margin: 0;">
+                        <img src="images/nanha.jpg" alt="Actor nanha">
+                        <!-- alt attribute provides accessibility text -->
+                        <figcaption style="font-size: 12px; font-style: italic; margin-top: 5px; text-align: center;">
+                            The star who brought smiles to millions.
+                        </figcaption>
+                    </figure>
+                </td>
+
+                <!-- Center Story Column -->
+                <td style="width: 40%; padding: 0 15px;">
+                    <article>
+
+                        <h3 style="margin-top: 0; background-color: #333; color: white; padding: 5px; text-align: center;">
+                            "I WON'T EVEN SEE HIM ONE LAST TIME"
+                        </h3>
+
+                        <h4 style="margin: 5px 0; text-align: center; color: #555;">
+                            Actress Nazli Weeps Inconsolably
+                        </h4>
+
+                        <p style="font-size: 14px; line-height: 1.4; text-align: justify;">
+                            <strong>LAHORE</strong> – Upon receiving the news, actress Nazli was reportedly in a state of shock. Speaking through tears, she expressed her disbelief, stating, "I cannot fathom why he would take such a step; he shouldn't have done this."
+                        </p>
+
+                        <p style="font-size: 14px; line-height: 1.4; text-align: justify;">
+                            She lamented the circumstances that have now created a permanent distance between them. "The greatest regret of my life will be that I cannot even see his face one last time," she told reporters, highlighting the severity of the family conflict that now bars her from the funeral proceedings.
+                        </p>
+
+                    </article>
+                </td>
+
+                <!-- Right Image Column -->
+                <td style="width: 30%; padding-left: 15px; border-left: 1px solid #ccc;">
+                    <figure style="margin: 0;">
+                        <img src="images/sucicide.jpg" alt="Tragic Scene">
+                        <img src="images/nazli.jpg" alt="Nazli crying">
+                        <figcaption style="font-size: 12px; font-style: italic; margin-top: 5px; text-align: center;">
+                            Actor Faiza Nazli.
+                        </figcaption>
+                    </figure>
+                </td>
+
+            </tr>
+        </table>
+
+        <!-- ===================== POLICE INVESTIGATION SECTION ===================== -->
+        <section style="background-color: #ececec; padding: 15px; border-top: 4px solid black; border-bottom: 2px solid black;">
+        <!-- Highlighted section with background and borders -->
+
+            <h3 style="margin-top: 0; text-transform: uppercase;">
+                Police Initiate Investigation: Wife and Son Questioned
+            </h3>
+
+            <!-- Two-column layout inside this section -->
+            <div style="column-count: 2; column-gap: 40px; text-align: justify;">
+
+                <p style="margin-top: 0;">
+                    Authorities have seized the automatic rifle and ammunition magazine found near the body. The investigation has now widened to include statements from Nanha's first wife and his son. Police are trying to reconstruct the events leading up to the suicide to determine if there was any foul play or external incitement involved.
+                </p>
+
+                <!-- Unordered list for key investigation points -->
+                <ul style="padding-left: 20px; font-size: 14px; margin-top: 15px;">
+                    <li>Nanha was deeply in love with Nazli, but sources claim she had grown indifferent recently.</li>
+                    <li>This was reportedly not his first attempt to end his life.</li>
+                    <li>Family disputes regarding property and marriage created a high-pressure environment.</li>
+                </ul>
+
+            </div>
+        </section>
+
+        <!-- ===================== FOOTER SECTION ===================== -->
+        <footer style="margin-top: 20px; text-align: center; font-size: 12px; color: #666; border-top: 1px solid #ccc; padding-top: 10px;">
+            <!-- Footer contains publication and archival info -->
+            <p>Printed and Published by The Daily News Group, Lahore. | Editor-in-Chief: A. Rahman</p>
+            <p>HTML Recreation for Archival Purposes</p>
+        </footer>
+
+    </main>
+</body>
+</html>
